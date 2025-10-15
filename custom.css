@@ -1,0 +1,15 @@
+/* Custom tweaks for x-tech landing layout */
+@media (max-width: 640px) {
+  main {
+    margin: 0.5rem;
+    border-radius: 0.75rem;
+  }
+  header, section, footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+
